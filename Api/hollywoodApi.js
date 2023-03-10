@@ -1,0 +1,34 @@
+const get=(req,res)=>{
+    res.send([
+         
+    {
+       
+        "name":"The Wall Street Journal",
+        "author":null,
+        "title":"Newmont Proposes $17 Billion Takeover of Australia’s Newcrest Mining","description":"U.S. gold producer makes second offer after Newcrest rejected an earlier proposal as too low",
+        "url":"https://www.wsj.com/articles/newmont-proposes-17-billion-takeover-of-australias-newcrest-mining-11675648137",
+        "urlToImage":"https://images.wsj.net/im-717722/social",
+        "publishedAt":"2023-02-06T07:10:00Z",
+        "content":"ADELAIDE, AustraliaNewmont Corp. has made a roughly $17 billion offer to acquire Australias Newcrest Mining Ltd., aiming to seal one of the biggest deals for a global gold miner as the industry strug… [+336 chars]"
+    },
+        {"name":"The Wall Street Journal",
+        "author":"Lauren Thomas",
+        "title":"Public Storage Makes $11 Billion Unsolicited Offer for Life Storage",
+        "description":"The smaller rival rebuffed the company’s overtures in December and January",
+        "url":"https://www.wsj.com/articles/public-storage-makes-11-billion-unsolicited-offer-for-life-storage-11675635919",
+        "urlToImage":"https://images.wsj.net/im-717614/social",
+        "publishedAt":"2023-02-05T22:57:00Z",
+        "content":"Public Storage has made an $11 billion unsolicited offer for its smaller rival Life Storage Inc., ramping up an effort to buy its smaller rival after an earlier bid was rejected, in a move that would… [+276 chars]"},
+        {"source":{"id":"the-wall-street-journal","name":"The Wall Street Journal"},"author":"Matthew Thomas","title":"Adani Crisis: How a Short Seller Wiped Out Billions in Wealth From One of India’s Richest Men","description":"Report from Hindenburg Research led to a $100 billion slide in Adani stock prices","url":"https://www.wsj.com/articles/adani-group-your-guide-to-the-indian-companys-stock-market-rout-11675335951","urlToImage":"https://images.wsj.net/im-715639/social","publishedAt":"2023-02-05T20:22:00Z","content":"Gautam Adani, an Indian businessman, is \r\none of the richest people in the world. His wealth took a big hit when shares of companies owned by his flagship Adani Group fell dramatically following the … [+352 chars]"},
+        
+        {"source":{"id":"the-wall-street-journal","name":"The Wall Street Journal"},"author":"Jan Wolfe","title":"Judge Releases Decision Approving Meta’s Virtual-Reality Deal","description":"Unsealed ruling lays out details on FTC’s loss of its bid to block acquisition","url":"https://www.wsj.com/articles/judge-releases-decision-approving-metas-virtual-reality-deal-11675624589","urlToImage":"https://images.wsj.net/im-717546/social","publishedAt":"2023-02-05T19:18:19Z","content":"WASHINGTONA judge has made public his decision that allowed Meta Platforms Inc. to acquire a virtual-reality startup, providing new details on why \r\nhe ruled against the Federal Trade Commission in i… [+397 chars]"},
+    
+        {"source":{"id":"the-wall-street-journal","name":"The Wall Street Journal"},"author":"wsj","title":"When Does Elon Sleep?","description":"At Tesla trial and in tweets, executive gives a glimpse into personal challenges","url":"https://www.wsj.com/articles/when-does-elon-musk-sleep-billionaire-speaks-of-limits-to-fixing-twitter-and-his-back-pain-11675604800","urlToImage":"https://images.wsj.net/im-716985/social","publishedAt":"2023-02-05T15:00:04Z","content":"When Does Elon Musk Sleep? Billionaire Speaks of Limits to Fixing Twitter and His Back PainElon Musk is tired, his back hurts and his mom wants him to get some sleep.“I had trouble sleeping last nigh… [+1472 chars]"},
+        {"source":{"id":"the-wall-street-journal","name":"The Wall Street Journal"},"author":"Randall Smith","title":"Some Investors Are Missing Out on Higher Yields—and Don’t Know It","description":"With ‘cash sweeps,’ brokerage firms automatically put uninvested client assets into a low-yielding bank-deposit program","url":"https://www.wsj.com/articles/investing-high-yield-funds-deposits-11675530179","urlToImage":"https://images.wsj.net/im-714702/social","publishedAt":"2023-02-05T14:00:00Z","content":"Stocks and bonds both fell sharply last year. But one bright spot in financial markets was the rising interest rates on money-market funds, which in December topped 4% on average for the first time i… [+362 chars]"},
+        {"source":{"id":"the-wall-street-journal","name":"The Wall Street Journal"},"author":"Michael M. Phillips","title":"Father's Desperate Plan to Rescue Son From America...","description":"The Saleban family left Minnesota for Somaliland, where disobeying parents is illegal and carries a maximum penalty of six months in prison","url":"https://www.wsj.com/articles/one-fathers-desperate-plan-to-rescue-his-son-from-america-11675436043","urlToImage":"https://images.wsj.net/im-714039/social","publishedAt":"2023-02-03T18:10:37Z","content":"BORAMA, SomalilandSeckie Saleban, groggy after a late night binge-watching TV, woke up to voices in his room. His first thought was that The Office was still playing. He rolled over and saw two polic… [+222 chars]"},
+        {"source":{"id":"the-wall-street-journal","name":"The Wall Street Journal"},"author":"Suzanne Vranica, Patience Haggin","title":"TWITTER Tries Super Bowl 'Fire Sale' to Win Back Advertisers...","description":"TWITTER Tries Super Bowl 'Fire Sale' to Win Back Advertisers...\r\n\n \n \n \n (Second column, 8th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:SPACEX JUNK: Musk Should Not Be In Charge of Night Sky...","url":"https://www.wsj.com/articles/elon-musks-twitter-pushes-to-win-back-advertisers-during-super-bowl-weekend-11675401181","urlToImage":"https://images.wsj.net/im-716441/social","publishedAt":"2023-02-03T15:49:37Z","content":"Twitter Inc. is leveraging its most important night of the year to help it win back the long list of advertisers that ditched the social-media platform after \r\nElon Musks $44 billion takeover of the … [+474 chars]"},
+       
+        {"source":{"id":"the-wall-street-journal","name":"The Wall Street Journal"},"author":"Collin Eaton, Jenny Strasburg","title":"Oil Industry’s Windfall Fails to Excite Wall Street","description":"Exxon, Chevron and Shell deliver record profits, but investors are wary","url":"https://www.wsj.com/articles/oil-industrys-windfall-fails-to-excite-wall-street-11675564711","urlToImage":"https://images.wsj.net/im-715480/social","publishedAt":"2023-02-05T10:30:00Z","content":"Oil companies delivered the markets best shareholder returns last year, but Wall Street is still wary.    \r\nThe biggest Western oil companies, Exxon Mobil Corp.,Chevron Corp. and Shell PLC, together … [+203 chars]"}
+    ] )
+}
+module.exports.apicontroller=get;
